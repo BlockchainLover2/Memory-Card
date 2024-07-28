@@ -1,6 +1,6 @@
 @font-face {
     font-family: pokemon;
-    src: url("public/Pokemon Hollow.ttf");
+    src: url("assets/Pokemon Hollow.ttf");
 }
 html{
     font-family: pokemon , system-ui ;
@@ -10,7 +10,7 @@ html{
 body{
     margin:0;
     padding:0;
-    background: url("public/background.gif");
+    background: url("assets/background.gif");
     background-size: cover;
 }
 
