@@ -98,3 +98,12 @@ h2{
         transform: scale(2);
     }
 }
+
+@media (max-width: 1000px) {
+    #root{
+        grid-template-columns: 1fr
+    }
+    .card:hover{
+        transform: scale(1);
+    }
+}
