@@ -15,6 +15,9 @@ function App() {
        setArray(await getImages())
     }
     get()
+
+
+
   }, []);
 
 
