@@ -4,7 +4,7 @@ function DataContainer({highScore,score}){
             <div className={"user-data-container"}>
                 <h2>Don't Click The Same Image More Than Once!!</h2>
                 <Data headerText={"Current Score"} value={score}></Data>
-                <Data headerText={"Best Score"} value={highScore}></Data>
+                <Data  headerText={"Best Score"} value={highScore}></Data>
             </div>
         </>
     );

@@ -10,6 +10,7 @@ function App() {
     const [score, setScore] = useState(0);
     const [clickedArray,setClickedArray] = useState([]);
 
+
     useEffect(() => {
         async function get(){
        setArray(await getImages())
@@ -31,7 +32,7 @@ function App() {
                  array = {array} clickedArray={clickedArray}
                  setClickedArray={setClickedArray}></Container>
       <DataContainer highScore={highScore} score={score}></DataContainer>
-
+        <p className={"image-owner"}>Image By robokoboto</p>
     </>
   )
 }
