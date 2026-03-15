@@ -1,8 +1,15 @@
-# React + Vite
+A dynamic memory card game developed using React. . The game challenges users to click all cards without clicking a card more than once. State is managed using React hooks. Styled using modern CSS techniques for an intuitive, user-friendly interface.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Key Features:
+- Fast and interactive UI built with React.js.
+- Responsive design for both desktop and mobile devices.
+- State management with `useState` and `useEffect`.
+- Shuffle functionality and a move counter.
+- Clean, minimalistic interface styled with CSS.
 
-Currently, two official plugins are available:
+Technologies:  
+- React.js  
+- JavaScript 
+- HTML
+- CSS
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
